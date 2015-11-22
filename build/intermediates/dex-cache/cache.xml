@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/zysd/Documents/workplace/opensource/android/amarino-app/amarinoApp/libs/AndroidBluetoothLibrary.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="03becf78ee96fb5127a875bdb31b0c1c9581771e">
+        <dex dex="/Users/zysd/Documents/workplace/opensource/android/amarino-app/amarinoApp/build/intermediates/pre-dexed/debug/AndroidBluetoothLibrary-cc7df368929f0f367d0dfc61d9431e52058f8bb2.jar" />
+    </item>
+
+</items>
