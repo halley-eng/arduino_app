@@ -8,5 +8,12 @@
         sha1="03becf78ee96fb5127a875bdb31b0c1c9581771e">
         <dex dex="/Users/zysd/Documents/workplace/opensource/android/amarino-app/amarinoApp/build/intermediates/pre-dexed/debug/AndroidBluetoothLibrary-cc7df368929f0f367d0dfc61d9431e52058f8bb2.jar" />
     </item>
+    <item
+        jar="/Users/zysd/Documents/workplace/opensource/android/amarino-app/amarinoApp/libs/xUtils-2.6.14.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="/Users/zysd/Documents/workplace/opensource/android/amarino-app/amarinoApp/build/intermediates/pre-dexed/debug/xUtils-2.6.14-7b85c7b1f512172bfc15a65f40018d3884fdd797.jar" />
+    </item>
 
 </items>

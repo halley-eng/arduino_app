@@ -18,10 +18,6 @@
  */
 package at.abraxas.amarino;
 
-import it.gerdavax.easybluetooth.LocalDevice;
-
-import java.util.ArrayList;
-
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.ListActivity;
@@ -51,10 +47,15 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.ArrayList;
+
+import at.abraxas.amarino.activity.ControlActivity;
 import at.abraxas.amarino.db.AmarinoDbAdapter;
 import at.abraxas.amarino.intent.DefaultAmarinoServiceIntentConfig;
 import at.abraxas.amarino.log.Logger;
 import at.abraxas.amarino.service.AmarinoService;
+import it.gerdavax.easybluetooth.LocalDevice;
 
 /**
  * 
@@ -141,7 +142,7 @@ public class MainScreen extends ListActivity implements OnClickListener {
 		findViewById(R.id.settings_btn_text).setOnClickListener(this);
 
 		/* Since the settings button is not used so far, I hide it */
-		findViewById(R.id.settings_btn_layout).setVisibility(View.GONE);
+//		findViewById(R.id.settings_btn_layout).setVisibility(View.GONE);
 
 		db = new AmarinoDbAdapter(this);
 		db.open();
@@ -371,8 +372,9 @@ public class MainScreen extends ListActivity implements OnClickListener {
 		case R.id.settings_btn:
 		case R.id.settings_btn_text:
 			// TODO Perhaps we need a settings button in the future
-			Toast.makeText(this, "not implemented yet", Toast.LENGTH_SHORT)
-					.show();
+			startActivity(new Intent(MainScreen.this, ControlActivity.class));
+//			Toast.makeText(this, "not implemented yet", Toast.LENGTH_SHORT)
+//					.show();
 			break;
 		}
 	}

@@ -42,7 +42,8 @@ import at.abraxas.amarino.log.Logger;
 import at.abraxas.amarino.service.AmarinoService;
 
 /**
- * 
+ *
+ * 跟踪输入
  * @author Bonifaz Kaufmann
  *
  * $Id: Monitoring.java 444 2010-06-10 13:11:59Z abraxas $

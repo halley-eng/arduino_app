@@ -15,6 +15,8 @@
     <color name="monitoring_btn_text">#999</color>
     <!-- From: file:/Users/zysd/Documents/workplace/opensource/android/amarino-app/amarinoApp/src/main/res/values/dimens.xml -->
     <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="button_font_size">12sp</dimen>
     <dimen name="device_name_size">18sp</dimen>
     <!-- From: file:/Users/zysd/Documents/workplace/opensource/android/amarino-app/amarinoApp/src/main/res/values/colors.xml -->
@@ -97,6 +99,10 @@
     <string name="show_events">Show Events</string>
     <!-- From: file:/Users/zysd/Documents/workplace/opensource/android/amarino-app/amarinoApp/src/main/res/values/styles.xml -->
     <eat-comment/>
+    <style name="button_control">
+        <item name="android:width">100dp</item>
+        <item name="android:height">100dp</item>
+    </style>
     <style name="image_button_with_bottom_text">
         <item name="android:background">@drawable/btn_background</item>
         <item name="android:focusable">true</item>

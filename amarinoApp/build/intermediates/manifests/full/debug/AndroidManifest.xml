@@ -32,6 +32,12 @@
         android:resizeable="true"
         android:smallScreens="true" />
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:debuggable="false"
         android:icon="@drawable/icon"
@@ -69,6 +75,9 @@
                 <action android:name="amarino.intent.action.ACTION_GET_CONNECTED_DEVICES" />
             </intent-filter>
         </receiver>
+
+        <activity android:name="at.abraxas.amarino.activity.ControlActivity" >
+        </activity>
     </application>
 
 </manifest>
